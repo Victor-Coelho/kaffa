@@ -1,5 +1,5 @@
 import pytest
-from main import check_cnpj_string
+from ex1_function import check_cnpj_string
 
 # Test for invalid characters where it should be a punctiation character.
 def test_invalid_punct():
