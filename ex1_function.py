@@ -25,7 +25,3 @@ def check_cnpj_string(cnpj):
   # If cnpj entry does not have the correct length, it is not valid.
   else:
     return "Invalid CNPJ format: invalid number of characters."
-
-
-if __name__ == "__main__":
-    main()
