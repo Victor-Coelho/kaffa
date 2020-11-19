@@ -52,23 +52,16 @@ def validate_cnpj(cnpj):
   aux_cnpj = argument_cnpj[:]
   # Generates first validation digit
   v_digit = generate_validation_digit(argument_cnpj, 1)
-  print(v_digit)
   # Puts created v_digit in first validation digit position on aux_cnpj
   aux_cnpj[12] = v_digit
   # Generates second validation digit
   v_digit = generate_validation_digit(aux_cnpj, 2)
-  print(v_digit)
   # Puts created v_digit in second validation digit position on aux_cnpj
   aux_cnpj[13] = v_digit
-  print(aux_cnpj)
-  print(argument_cnpj)
   if(argument_cnpj == aux_cnpj):
     return "Valid CNPJ"
   else:
     return "Invalid CNPJ"
-
-def main():
-  print(validate_cnpj("11.222.333/0001-81"))
 
 if __name__ == "__main__":
     main()
