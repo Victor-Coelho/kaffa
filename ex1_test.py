@@ -1,6 +1,5 @@
 import pytest
 from ex1_function import check_cnpj_string
-
 # Test for invalid characters where it should be a punctiation character.
 def test_invalid_punct():
   assert check_cnpj_string("02~123=683`0975/31") == "Invalid formatted CNPJ: incorrect punctuation."

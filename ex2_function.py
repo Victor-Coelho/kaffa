@@ -19,7 +19,6 @@ def format_cnpj(cnpj):
   else:
     return []
 
-
 def generate_validation_digit(cnpj, digit_number):
   # Auxiliary Variables
   multipliers = [5,4,3,2,9,8,7,6,5,4,3,2]
@@ -61,13 +60,15 @@ def validate_cnpj(cnpj):
   print(v_digit)
   # Puts created v_digit in second validation digit position on aux_cnpj
   aux_cnpj[13] = v_digit
-  if(argument_cnpj is aux_cnpj):
+  print(aux_cnpj)
+  print(argument_cnpj)
+  if(argument_cnpj == aux_cnpj):
     return "Valid CNPJ"
   else:
     return "Invalid CNPJ"
 
 def main():
-  print(validate_cnpj("11.222.333/0001-00"))
+  print(validate_cnpj("11.222.333/0001-81"))
 
 if __name__ == "__main__":
     main()
