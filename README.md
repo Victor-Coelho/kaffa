@@ -16,22 +16,30 @@ pytest -v
 
 Pytest will then display the results of all tests created for the solutions of exercises. Below all test functions are described.
 
-file: ex1_test.py
+### Exercise 1 Tests
+**File: ex1_test.py**
 
-test_invalid_punct()\
-test_invalid_size()\
-test_invalid_characters()\
-test_valid_formatted_string()\
-test_valid_numbers_only_string()
+**test_invalid_punct():** Test for invalid characters where it should be a punctiation character.
 
-file: ex2_test.py
+**test_invalid_size():** Test for invalid CNPJ string size.
 
-test_correct_format()\
-test_invalid_string_size()\
-test_correct_validate_cnpj()\
-test_invalid_validate_cnpj()\
+**test_invalid_characters():** Tests for invalid characters - there should be only numbers or the correct punctuation characters.
 
 
+**test_valid_formatted_string():** Tests for valid input of a formatted CNPJ string
+
+
+**test_valid_numbers_only_string():** Tests for valid input of a numbers only CNPJ string
+
+**test_valid_numbers_only_string():** Tests for valid input of a numbers only CNPJ string
+
+### Exercise 2 Tests
+**File: ex2_test.py**
+
+**test_correct_format():** Checks if format_cnpj() outputs the correct integer list from a cnpj string\
+**test_invalid_string_size():** Checks if format_cnpj() outputs an empty list when it encounters invalid cnpj string sizes.\
+**test_correct_validate_cnpj():** Checks if validate_cnpj() outputs the correct message when it receives a valid CNPJ string.
+**test_invalid_validate_cnpj():** Checks if validate_cnpj() correctly outputs an invalid message when the input CNPJ is invalid.
 
 
 ## Exercise 1: Validate CNPJ format
