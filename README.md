@@ -19,6 +19,8 @@ pytest -v
 Pytest will then display the results of all tests created for the solutions of exercises. Below all test functions are described.
 ## Video with Execution and Solution Explanation
 [This link](https://youtu.be/05HetbCzM9E) leads to a video explanation of both Exercise Solutions and, also, an example of running **Pytest** and the **main.py** function.
+
+To skip the Solution Explanation and watch only the Execution, you can access via [this](https://youtu.be/05HetbCzM9E?t=545) or skip to 9:05 in the video.
 ### Exercise 1 Tests
 **File: ex1_test.py**
 
