@@ -1,5 +1,7 @@
 # Kaffa - Pre-qualification Test Resolution
 Author: Víctor Coelho
+## Requirements
+These solutions require [Python](https://www.python.org/) and [Pytest](https://docs.pytest.org/en/stable/) to be installed.
 ## How to Build and Run Exercises Solutions
 Exercise solutions can be run from the **main.py** in conjunction with the **input.txt** that contains an assortment of CNPJ strings. From the root of the repository, use the command:\
 ``
@@ -15,7 +17,8 @@ pytest -v
 ``
 
 Pytest will then display the results of all tests created for the solutions of exercises. Below all test functions are described.
-
+## Video with Execution and Solution Explanation
+[This link](https://youtu.be/05HetbCzM9E) leads to a video explanation of both Exercise Solutions and, also, an example of running **Pytest** and the **main.py** function.
 ### Exercise 1 Tests
 **File: ex1_test.py**
 
