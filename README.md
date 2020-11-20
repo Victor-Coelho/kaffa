@@ -26,7 +26,7 @@ Pytest will then display the results of all tests created for the solutions of e
 **test_invalid_size():** Test for invalid CNPJ string size.
 **test_invalid_characters():** Tests for invalid characters - there should be only numbers or the correct punctuation characters.
 **test_valid_formatted_string():** Tests for valid input of a formatted CNPJ string
-**test_valid_numbers_only_string():** Tests for valid input of a numbers only CNPJ string
+**test_valid_numbers_only_string():** Tests for valid input of a numbers only CNPJ string\
 **test_valid_numbers_only_string():** Tests for valid input of a numbers only CNPJ string
 
 ### Exercise 2 Tests
