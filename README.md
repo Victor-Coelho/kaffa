@@ -67,7 +67,9 @@ Functions:
 **generate_validation_digit(cnpj, digit_number)** - receives a **cnpj** integer list and a **digit_number** informing what validation digit should be generated. Outputs integer with generated validation number.\
 **validate_cnpj(cnpj)** - receives a **cnpj** string as input. Outputs a message informing if it is a valid cnpj string based on its validation digits.
 
-Exercise 2 solution involved utilizing an algorithm to generate validation digits for a given CNPJ string and compare the generated digits with the actual validation digits from the input CNPJ string. The **validate_cnpj** function invokes **generate_validation_digit** to generate the two validation digits that are the last two digits from a CNPJ. Compares the generated validation digits with the actual input validation digits. If they are the same, outputs a message that the CNPJ is valid. Otherwise, outputs a message that the CNPJ is invalid.
+Exercise 2 solution involved utilizing an algorithm to generate validation digits for a given CNPJ string and compare the generated digits with the actual validation digits from the input CNPJ string. 
+
+The **validate_cnpj** function invokes **generate_validation_digit** to generate the two validation digits that are the last two digits from a CNPJ. Compares the generated validation digits with the actual input validation digits. If they are the same, outputs a message that the CNPJ is valid. Otherwise, outputs a message that the CNPJ is invalid.
 
 The algorithm used to generate the validation digits is obtained from a [Modulo-11](https://pt.wikipedia.org/wiki/D%C3%ADgito_verificador#M%C3%B3dulo_11) operation.
 
